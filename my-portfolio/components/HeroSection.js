@@ -29,7 +29,7 @@ export default function HeroSection() {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-black dark:text-white">
             Hi, I&apos;m Tejash, a Full-Stack Developer crafting seamless digital solutions.
           </p>
-          <a href="#about">
+          <a href="#tech-stack">
             <MagicButton />
           </a>
         </div>

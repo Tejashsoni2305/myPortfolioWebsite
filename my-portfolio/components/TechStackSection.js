@@ -1,5 +1,7 @@
 import React from "react";
 import { InfiniteTechStack } from "./ui/InfiniteTechStack";
+import { Button } from "./ui/MovingBorder";
+
 
 const TechStackSection = () => {
   const techStack = [
@@ -18,10 +20,14 @@ const TechStackSection = () => {
   ];
 
   return (
-    <section className="py-16 sm:py-20 bg-gray-100 dark:bg-black-100">
-      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-black dark:text-white mb-6 sm:mb-8">
-        My Tech Stack
-      </h2>
+    <section className="py-16 sm:py-20 bg-gray-100 dark:bg-black-100" id="tech-stack">
+      <div className="flex justify-center items-center mb-10">
+                        <Button className="px-10 cursor-default pointer-events-none" borderRadius="1.75rem">
+                            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-black dark:text-white">
+                              My Tech Stack
+                            </h2>
+                        </Button>
+        </div>
       <InfiniteTechStack
         techStack={techStack}
         direction="left"
