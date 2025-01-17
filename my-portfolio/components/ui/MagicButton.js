@@ -12,7 +12,7 @@ const MagicButton = ({ title, icon, position, handleClick, otherClasses }) => {
       <span
         className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg
              bg-slate-950 px-7 text-xl font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses} font-bold`}
-      > Show my work
+      >
         {position === "left" && icon}
         {title}
         {position === "right" && icon}

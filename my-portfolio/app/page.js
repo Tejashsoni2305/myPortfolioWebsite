@@ -3,6 +3,8 @@ import HeroSection from "@/components/HeroSection.js";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import AboutSection from "@/components/About";
 import ProjectsSection from "@/components/Projects";
+import ExperienceSection from "@/components/ExperienceSection";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
             <HeroSection />
             <AboutSection />
             <ProjectsSection />
+            <ExperienceSection />
+            <ContactForm />
           </div>
       </main>
   );

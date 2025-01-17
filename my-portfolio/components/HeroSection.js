@@ -19,7 +19,7 @@ export default function HeroSection() {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
+          <p className="uppercase tracking-widest text-sm text-center text-blue-100 max-w-80">
             Transforming Ideas into Reality
           </p>
           <TextGenerateEffect
@@ -29,9 +29,14 @@ export default function HeroSection() {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-black dark:text-white">
             Hi, I&apos;m Tejash, a Full-Stack Developer crafting seamless digital solutions.
           </p>
-          <a href="#tech-stack">
-            <MagicButton />
-          </a>
+          <div className='flex flex-col sm:flex-row justify-center gap-6'>
+                <a href="#tech-stack">
+                  <MagicButton title={"Show my work"} />
+                </a>
+                <a href="#contact">
+                  <MagicButton title={"Get in touch"} />
+                </a>
+          </div>
         </div>
       </div>
     </div>
