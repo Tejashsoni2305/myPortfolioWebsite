@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tejashsoni.dev
+
+# Sitemaps
+Sitemap: https://tejashsoni.dev/sitemap.xml
