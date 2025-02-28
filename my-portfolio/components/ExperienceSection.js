@@ -1,24 +1,11 @@
 import React from "react";
 import { Button } from "./ui/MovingBorder";
 const experiences = [
-    {
-        company: "Freelance",
-        location: "Remote",
-        role: "Full-Stack Developer",
-        duration: "Dec 2024 – Present",
-        achievements: [
-          "Designed and developed a responsive single-page application (SPA) for H&E Computer Solutions, using Next.js and TailwindCSS.",
-          "Boosted organic traffic by 30% through SEO optimization and strategic implementation of meta tags.",
-          "Managed domain and DNS setup for seamless online presence, ensuring zero downtime during migration.",
-          "Integrated a contact form that increased customer inquiries by 25%.",
-          "Provided technical consultation for hosting solutions and content strategies to improve customer engagement.",
-        ],
-   },
   {
     company: "Silver Touch Technologies Ltd.",
     location: "Remote",
     role: "Software Developer Intern",
-    duration: "Jan 2024 – Aug 2024",
+    duration: "Sept 2023 – April 2024",
     achievements: [
       "Developed secure and scalable backend services using Python (Django/Flask) and Node.js, streamlining data handling for financial applications.",
       "Enhanced query efficiency in PostgreSQL and MongoDB, achieving 25% faster data retrieval through indexing and query optimization.",
@@ -30,7 +17,7 @@ const experiences = [
     company: "University of Windsor",
     location: "Windsor, ON",
     role: "Teaching Assistant",
-    duration: "Jan 2023 – Dec 2023",
+    duration: "Aug 2022 – Aug 2023",
     achievements: [
       "Mentored 50+ students in Python programming, increasing assignment success rates by 20% through guidance in core concepts and one-to-one doubt-solving sessions during office hours.",
       "Reviewed 200+ assignments, improving class performance by 15% through detailed feedback.",
