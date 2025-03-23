@@ -2,15 +2,21 @@ import React from "react";
 import { Button } from "./ui/MovingBorder";
 const experiences = [
   {
+    company: "Opreto inc.",
+    location: "Remote",
+    role: "Software Engineer",
+    duration: "Sept 2024 – Present",
+    achievements: [
+      
+    ],
+  },
+  {
     company: "Silver Touch Technologies Ltd.",
     location: "Remote",
     role: "Software Developer Intern",
     duration: "Sept 2023 – April 2024",
     achievements: [
-      "Developed secure and scalable backend services using Python (Django/Flask) and Node.js, streamlining data handling for financial applications.",
-      "Enhanced query efficiency in PostgreSQL and MongoDB, achieving 25% faster data retrieval through indexing and query optimization.",
-      "Built data pipelines to process structured data from JSON, HTML, and CSV formats, enabling actionable insights for analytics workflows.",
-      "Improved system reliability by implementing unit tests and CI/CD pipelines, reducing deployment errors by 15%.",
+      
     ],
   },
   {
@@ -19,9 +25,6 @@ const experiences = [
     role: "Teaching Assistant",
     duration: "Aug 2022 – Aug 2023",
     achievements: [
-      "Mentored 50+ students in Python programming, increasing assignment success rates by 20% through guidance in core concepts and one-to-one doubt-solving sessions during office hours.",
-      "Reviewed 200+ assignments, improving class performance by 15% through detailed feedback.",
-      "Managed technical setup for 30+ Hyflex lectures, ensuring seamless hybrid learning for 100+ students.",
     ],
   },
 ];
